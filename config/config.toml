@@ -1,0 +1,16 @@
+model = "gpt-5.2-codex"
+model_reasoning_effort = "xhigh"
+
+[mcp_servers.jetbrains]
+url = "http://127.0.0.1:64344/stream"
+
+[mcp_servers.task]
+type = "stdio"
+command = "node"
+args = ["community/build/mcp-servers/task/task-mcp.mjs"]
+
+[features]
+shell_snapshot = true
+web_search_request = true
+web_search_cached = true
+unified_exec = true
