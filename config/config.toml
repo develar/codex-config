@@ -14,3 +14,5 @@ shell_snapshot = true
 web_search_request = true
 web_search_cached = true
 unified_exec = true
+collab = true
+steer = true
